@@ -22,3 +22,23 @@ The And the representation is considerate in leap years.
 --> calculate the day of the week that this date occurs on 0-Saturday 1-Sunday 2-Monday etc.
 - public String toString()
 -->  returns a String that represents this date
+
+## FoodItem.java
+FoodItem Class represent food item in supermarket and contain the next parameters:
+- name
+- catalogue Number
+- quantity
+- Production Date
+- Expiry Date
+- Min Store Temp
+- Max Store Temp
+- price
+### methods
+- get methods --> get fooditem param
+- set methods --> set fooditem param
+- public boolean equals(FoodItem other) --> check if 2 food items are the same (excluding the quantity values)
+- public boolean isFresh(Date d) --> check if this food item is fresh on the date d
+- public boolean olderFoodItem(FoodItem other) --> check if this food item is older than other food item
+- public int howManyItems(int amount) --> returns the number of units of products that can be purchased for a given amount
+- public boolean isCheaper(FoodItem other) --> check if this food item is cheaper than other food item
+- public String toString() --> returns a String that represents this food item
