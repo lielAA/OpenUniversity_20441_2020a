@@ -6,8 +6,10 @@ Matrix class represents a Matrix by Two-dimensional array that represent image i
 Any cell in the Matrix represent by integer number between 0-255, while 0 show pure white, and 255 show pure black.
 
 ## Stock.java
+
 Stock represent the stock of all fooditems in the supermarket.
 It use Date.java and FoodItem.java methods.
+
 ### methods
 
 - <b>public boolean addItem(FoodItem newItem)</b> --> Sort (by minimum to maximum) the stock by catalogue number.If Stock is full (100 items) new item will not be added.If Item already in stock (same name and catalogue number), The quantity of new item will be added to exist item.If Item already in stock (same name and catalogue number), but production OR expire dates are different:The new Item will be added to the Stock as a new item, but before the existing item
@@ -25,6 +27,9 @@ If there is no range of temperature - Return '2147483647'
 - <b>public String toString()</b> --> Returns a String that represents all FoodItems in Stock 
 
 ## Matrix.java
+
+Matrix class represents a Matrix by Two-dimensional array that represent image in black and white colors. 
+Any cell in the Matrix represent by integer number between 0-255, while 0 show pure white, and 255 show pure black.
 
 ### methods
 
