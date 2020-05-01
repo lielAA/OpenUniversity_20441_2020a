@@ -6,8 +6,10 @@ The system use Date, fooditem and stock classes.
 ## Date.java
 Date class represent date of specific fooditem.
 The date represented by dd/mm/yyyy format, the year is between 1000-9999. 
-The And the representation is considerate in leap years.
+The representation is considerate in leap years.
 ### methods
+- get methods
+- set methods
 - public boolean equals(Date other)
 --> check if 2 dates are the same
 - public boolean before(Date other)
