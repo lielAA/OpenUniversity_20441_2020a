@@ -2,7 +2,7 @@
 
 This class contain 4 different exercises (which is not depend one each other), That come prove student abilities in effectiveness and complexity code, and recursion problem. 
 
-##Exe14.java methods
+## Exe14.java methods
 
 - <b>public static int subStrC(String s, char c)</b> --> This static subStrC method receive string s and char c, and returns how many sub-strings existing in s, that start and finished in char c, and contain char c inside only 1 time.For example: s = "cabcabc" c = 'c' --> return 1 
 <I>Time Complications = O(n) ; Memory Complications = O(1)</I>   
