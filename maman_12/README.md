@@ -4,10 +4,13 @@ That comes to realize Computerized stock system in the supermarket.
 The system use Date, fooditem and stock classes.
 
 ## Date.java
+
 Date class represent date of specific fooditem.
 The date represented by dd/mm/yyyy format, the year is between 1000-9999. 
 The representation is considerate in leap years.
+
 ### methods
+
 - <b>get methods
 - <b>set methods
 - <b>public boolean equals(Date other)</b>
@@ -26,6 +29,7 @@ The representation is considerate in leap years.
 -->  returns a String that represents this date
 
 ## FoodItem.java
+
 FoodItem Class represent food item in supermarket and contain the next parameters:
 - name
 - catalogue Number
@@ -35,7 +39,9 @@ FoodItem Class represent food item in supermarket and contain the next parameter
 - Min Store Temp
 - Max Store Temp
 - price
+
 ### methods
+
 - <b>get methods</b> --> get fooditem param
 - <b>set methods</b> --> set fooditem param
 - <b>public boolean equals(FoodItem other)</b> --> check if 2 food items are the same (excluding the quantity values)
