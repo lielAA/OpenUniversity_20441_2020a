@@ -8,21 +8,21 @@ Date class represent date of specific fooditem.
 The date represented by dd/mm/yyyy format, the year is between 1000-9999. 
 The representation is considerate in leap years.
 ### methods
-- get methods
-- set methods
-- public boolean equals(Date other)
+- <b>get methods
+- <b>set methods
+- <b>public boolean equals(Date other)</b>
 --> check if 2 dates are the same
-- public boolean before(Date other)
+- <b>public boolean before(Date other)</b>
 --> check if this date is before other date
-- public boolean after(Date other)
+- <b>public boolean after(Date other)</b>
 --> check if this date is after other date
-- public int difference(Date other)
+- <b>public int difference(Date other)</b>
 --> calculates the difference in days between two dates
-- public Date tomorrow()
+- <b>public Date tomorrow()</b>
 --> calculate the date of tomorrow
-- public int dayInWeek()
+- <b>public int dayInWeek()</b>
 --> calculate the day of the week that this date occurs on 0-Saturday 1-Sunday 2-Monday etc.
-- public String toString()
+- <b>public String toString()</b>
 -->  returns a String that represents this date
 
 ## FoodItem.java
@@ -36,11 +36,11 @@ FoodItem Class represent food item in supermarket and contain the next parameter
 - Max Store Temp
 - price
 ### methods
-- get methods --> get fooditem param
-- set methods --> set fooditem param
-- public boolean equals(FoodItem other) --> check if 2 food items are the same (excluding the quantity values)
-- public boolean isFresh(Date d) --> check if this food item is fresh on the date d
-- public boolean olderFoodItem(FoodItem other) --> check if this food item is older than other food item
-- public int howManyItems(int amount) --> returns the number of units of products that can be purchased for a given amount
-- public boolean isCheaper(FoodItem other) --> check if this food item is cheaper than other food item
-- public String toString() --> returns a String that represents this food item
+- <b>get methods</b> --> get fooditem param
+- <b>set methods</b> --> set fooditem param
+- <b>public boolean equals(FoodItem other)</b> --> check if 2 food items are the same (excluding the quantity values)
+- <b>public boolean isFresh(Date d)</b> --> check if this food item is fresh on the date d
+- <b>public boolean olderFoodItem(FoodItem other)</b> --> check if this food item is older than other food item
+- <b>public int howManyItems(int amount)</b> --> returns the number of units of products that can be purchased for a given amount
+- <b>public boolean isCheaper(FoodItem other)</b> --> check if this food item is cheaper than other food item
+- <b>public String toString()</b> --> returns a String that represents this food item
