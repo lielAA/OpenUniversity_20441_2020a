@@ -9,7 +9,8 @@ Any cell in the Matrix represent by integer number between 0-255, while 0 show p
 Stock represent the stock of all fooditems in the supermarket.
 It use Date.java and FoodItem.java methods.
 ### methods
-- <b>public boolean addItem(FoodItem newItem)<b> --> Sort (by minimum to maximum) the stock by catalogue number.If Stock is full (100 items) new item will not be added.If Item already in stock (same name and catalogue number), The quantity of new item will be added to exist item.If Item already in stock (same name and catalogue number), but production OR expire dates are different:The new Item will be added to the Stock as a new item, but before the existing item
+
+- public boolean addItem(FoodItem newItem) --> Sort (by minimum to maximum) the stock by catalogue number.If Stock is full (100 items) new item will not be added.If Item already in stock (same name and catalogue number), The quantity of new item will be added to exist item.If Item already in stock (same name and catalogue number), but production OR expire dates are different:The new Item will be added to the Stock as a new item, but before the existing item
 - public String order(int amount) --> Return String of all FoodItems that exist in Stock that their quantity is small than amount. If in Stock there is Items with same name and catalogue number that their production OR expire dates are different, The quantity of these items consider as the of them.
 - public int howMany(int temp) --> Return number of items that could be store in refrigerator depend on min and max temperature of items,and the temperature of refrigerator. If refrigerator temperature between min and max temperature of item the quantity of item will be count.
 - public void removeAfterDate(Date d) --> Remove all the items from stock that their expire date before defined date. If expire date before defined date its mean that the item is a moldy item.
@@ -26,6 +27,7 @@ If there is no range of temperature - Return '2147483647'
 ## Matrix.java
 
 ### methods
+
 - public Matrix makeNegative() --> Return new Matrix, that represent the negative of the origin image (by colors).
 Any number in the matrix will be BLACK minus the cell himself.
 For example: 255 became to 0 (255-255) ; and 150 became to 105 (255-150).   
