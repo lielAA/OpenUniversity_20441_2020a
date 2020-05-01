@@ -11,8 +11,8 @@ The representation is considerate in leap years.
 
 ### methods
 
-- <b>get methods
-- <b>set methods
+- <b>get methods</b>
+- <b>set methods</b>
 - <b>public boolean equals(Date other)</b>
 --> check if 2 dates are the same
 - <b>public boolean before(Date other)</b>
