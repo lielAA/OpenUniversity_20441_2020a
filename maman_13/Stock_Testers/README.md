@@ -9,5 +9,5 @@ These Testers test:
 
 ## Run Instructions:
 1.Locate Stock.java and all Tester at the same package.
-2.Import and install TestNG framwork on your IDE.
-3.Right mouse click in Tester --> Run As --> TestNG Test.
+<br>2.Import and install TestNG framwork on your IDE.
+<br>3.Right mouse click in Tester --> Run As --> TestNG Test.
